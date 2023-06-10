@@ -1,7 +1,7 @@
 # phillips-dvt-voicetracer-api
 
 The DVT6110 has a WiFi mode integration built in that allows the "VoiceTracer" app to connect to it over the same network.
-By enabling the wifi mode and knowing the IP of the device, you can also find out the IP using the hostname "dvt.local" that is normally assigned to the DVT6110 device.
+Its also possible to find out the IP using the hostname "dvt.local" that is normally assigned to the DVT6110 device.
 
 The API uses websockets to communicate with the DVT device, no encryption or secret keys are needed.
 
