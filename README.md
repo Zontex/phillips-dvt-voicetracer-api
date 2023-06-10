@@ -8,17 +8,17 @@ The API uses websockets to communicate with the DVT device, no encryption or sec
 ## Features
 
 The API currently supports:
-- [-] Download file
-- [-] Get files list
-- [-] Get device state
-- [-] Get Settings
-- [-] Get meta data
-- [-] Start recording
-- [-] Stop recording
+- [x] Download file
+- [x] Get files list
+- [x] Get device state
+- [x] Get Settings
+- [x] Get meta data
+- [x] Start recording
+- [x] Stop recording
 
 This to be added
-- [-] Delete file
-- [-] Others...
+- [x] Delete file
+- [x] Others...
 
 ## Purpose of the API
 
