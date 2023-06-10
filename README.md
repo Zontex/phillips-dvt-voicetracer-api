@@ -8,6 +8,7 @@ The API uses websockets to communicate with the DVT device, no encryption or sec
 ## Features
 
 The API currently supports:
+- [x] Find IP by hostname
 - [x] Download file
 - [x] Get files list
 - [x] Get device state
