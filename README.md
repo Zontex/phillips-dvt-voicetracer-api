@@ -7,8 +7,18 @@ The API uses websockets to communicate with the DVT device, no encryption or sec
 
 ## Features
 
-The API currently can get files, download recording, record and stop recording remotely, Get settings, meta data and device state.
-There are some extra APIs that existand should be added later on.
+The API currently supports:
+- [-] Download file
+- [-] Get files list
+- [-] Get device state
+- [-] Get Settings
+- [-] Get meta data
+- [-] Start recording
+- [-] Stop recording
+
+This to be added
+- [-] Delete file
+- [-] Others...
 
 ## Purpose of the API
 
