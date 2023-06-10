@@ -1,4 +1,5 @@
 import asyncio
+import socket
 import websockets
 import json
 
@@ -238,7 +239,13 @@ class VoiceTracer():
             return None
 
 if __name__ == "__main__":
+    # get device host name
+    try:
+        address = socket.gethostbyname("dvt.local")
+    except:
+        print("[-] Could not find DVT address on your local network, try to add it manually.")
+        exit()
     # Run the WebSocket request
-    recorder = VoiceTracer()
+    recorder = VoiceTracer(address=address)
     response = asyncio.get_event_loop().run_until_complete(recorder.get_files_list())
     print(response)
